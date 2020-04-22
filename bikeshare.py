@@ -37,7 +37,7 @@ def get_filters():
       else:
         break
 
-    # TO DO: get user input for day of week (all, Monday, Tuesday, ... Sunday etc)
+    # TO DO: get user input for day of the week (all, Monday, Tuesday, ... Sunday etc)
 
     while True:
       day = input("\nAre you looking to analyze a specific day? If so, please enter the day as follows: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not have any preference.\n").lower()
@@ -229,7 +229,7 @@ def user_stats(df):
             print("Input does not seem to match any of the accepted responses.")
             print("\nRestarting...\n")
 
-    #Extra while loop here to ask user if they want to continue viewing data
+    #Extra while loop inserted here to ask user if they want to continue viewing data
     while rdata == 'yes':
         print("Do you wish to view another 5 lines of raw data?")
         counter += 5
