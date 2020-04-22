@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-Bikeshare project was developed for Programming for Data Scince class at Udacity university. Python script reads data from .csv files for either Washington, New York city or Chicago. Using interactive interface a user can choose the city and define some other parameters to extract statistical information from the data.
+Bikeshare project was developed for Programming for Data Scince class at Udacity university. The python script (bikeshare.py) reads data from .csv files for either Washington, New York city or Chicago. Using interactive interface a user can choose the city and define some other parameters to extract statistical information from the data.
 
 ### Files used
 Bikeshare.py 
@@ -16,4 +16,5 @@ README.txt
 - Pandas documentation
 - Python Style Guide - https://www.python.org/dev/peps/pep-0008/
 - Lectures for Programming for Data Science
+- Python Errors and Exceptions - https://docs.python.org/3/tutorial/errors.html
 
